@@ -2,6 +2,11 @@ header {
     background-color: #1f2937;
 }
 
+.logo{
+    display: flex;
+}
+
+
 .header_logo{
     font-size: 24px;
     color: #f9faf8;
@@ -11,7 +16,7 @@ header {
     font-size: 18px;
     color: #e5e7eb;
     display: flex;
-    flex: 1 1 auto;
+    flex: 1 0 auto;
     flex-direction: row;
     justify-content: end;
 }
@@ -29,25 +34,40 @@ h1 {
 .action_button{
     background-color: #3882f6;
     border-color: white;
-    border-radius: 12px;
+    color: #f9faf8;
+    border-width: 1px;
+    border-radius: 8px;
 }
 
 .init_button{
     background-color: #3882f6;
+    color: #f9faf8;
     border: none;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 .information{
     font-size: 36px;
     font-style: extra-bold;
     color: #1f2937;
+    text-align: center;
+}
+
+.product_pictures{
+    display: flex;
+    width: 450px;
+    height: 120px;
+}
+
+.product_pictures img {
+    width: 100%;
+    height: auto;
 }
 
 .quote{
     background-color: #e5e7eb;
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
     color: #1f2937;
 }
 
@@ -56,6 +76,7 @@ h1 {
 }
 
 footer {
+    text-align: center;
     background-color: #1f2937;
     color: #e5e7eb;
 }
