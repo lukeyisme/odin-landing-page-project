@@ -2,21 +2,20 @@ header {
     background-color: #1f2937;
 }
 
-.logo{
-    display: flex;
-}
-
-
 .header_logo{
     font-size: 24px;
     color: #f9faf8;
 }
 
+.header_nav {
+    display: flex;
+}
+
 .link{
+    display: flex;
     font-size: 18px;
     color: #e5e7eb;
-    display: flex;
-    flex: 1 0 auto;
+    flex: auto;
     flex-direction: row;
     justify-content: end;
 }
