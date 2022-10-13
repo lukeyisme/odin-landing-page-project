@@ -1,6 +1,6 @@
 header {
     background-color: #1f2937;
-    padding: 1%;
+    padding: 5% 10%;
 }
 
 .header_logo{
@@ -19,6 +19,11 @@ header {
     flex: auto;
     flex-direction: row;
     justify-content: end;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -44,6 +49,9 @@ h1 {
     color: #f9faf8;
     border: none;
     border-radius: 8px;
+    font-size: 24px;
+    width: 15%;
+    padding: 1%;
 }
 
 .information{
@@ -75,8 +83,9 @@ h1 {
 }
 
 .action{
-    padding: 5%;
-    margin: 2%;
+    padding: 2%;
+    margin: 5% 10%;
+    border-radius: 15px;
     text-align: center;
     background-color: #3882f6;
 }
