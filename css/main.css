@@ -36,6 +36,7 @@ header {
 .content{
     display: flex;
     flex-direction: column;
+    padding: 1%;
 }
 
 h1 {
@@ -46,6 +47,16 @@ h1 {
 .sub_text{
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.header_img{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 240px;
+    padding: 5%;
+    background-color: #f9faf8;
+    border-radius: 50%;
 }
 
 .action_button{
@@ -100,7 +111,7 @@ main{
     padding: 5%;
 }
 
-img:hover{
+.product:hover{
     background-color: rgb(219, 218, 215);
     border-radius: 50%;
 }
