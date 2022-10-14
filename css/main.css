@@ -42,36 +42,46 @@ h1 {
     color: #f9faf8;
     border-width: 1px;
     border-radius: 8px;
+    font-size: 24px;
+    width: 15%;
+    padding: 1%;
+}
+
+.action_button:hover{
+    background-color: #0a65f7;
 }
 
 .init_button{
     background-color: #3882f6;
+    border-color: white;
     color: #f9faf8;
-    border: none;
+    border-width: 1px;
     border-radius: 8px;
     font-size: 24px;
     width: 15%;
     padding: 1%;
 }
 
+.init_button:hover{
+    background-color: #0a65f7;
+} 
+
 .information{
     font-size: 36px;
-    font-style: extra-bold;
+    font-style: bold;
+    text-decoration: underline;
     color: #1f2937;
     text-align: center;
 }
 
 .product_pictures{
     display: flex;
-    width: 450px;
+    flex: auto;
+    align-content: space-between;
+    width: auto;
     height: 120px;
     padding: 1%;
     margin-left: 1%;
-}
-
-.product_pictures img {
-    width: 100%;
-    height: auto;
 }
 
 .quote{
