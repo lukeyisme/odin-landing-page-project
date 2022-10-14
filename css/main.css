@@ -1,6 +1,7 @@
 header {
     background-color: #1f2937;
-    padding: 5% 10%;
+    padding: 0 8% 5% 8%;
+    border-radius: 8px;
 }
 
 .header_logo{
@@ -12,13 +13,24 @@ header {
     display: flex;
 }
 
-.link{
+.link_container{
     display: flex;
-    font-size: 18px;
-    color: #e5e7eb;
     flex: auto;
+    flex-wrap: wrap;
+    padding: 1%;                            /*If using a flex container, set padding on wrapper*/
     flex-direction: row;
     justify-content: end;
+}
+
+.link{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    margin: 1%;                             /*And set margin on the containers children, this enables space between inline items*/
+}
+
+.link:hover{
+    color: #3882f6;
 }
 
 .content{
@@ -48,7 +60,7 @@ h1 {
 }
 
 .action_button:hover{
-    background-color: #0a65f7;
+    background-color: #0158d3;
 }
 
 .init_button{
@@ -63,8 +75,12 @@ h1 {
 }
 
 .init_button:hover{
-    background-color: #0a65f7;
+    background-color: #0158d3;
 } 
+
+main{
+    padding: 1%;
+}
 
 .information{
     font-size: 36px;
@@ -72,16 +88,21 @@ h1 {
     text-decoration: underline;
     color: #1f2937;
     text-align: center;
+    padding: 1%;
 }
 
 .product_pictures{
     display: flex;
     flex: auto;
-    align-content: space-between;
+    justify-content: space-between;
     width: auto;
     height: 120px;
-    padding: 1%;
-    margin-left: 1%;
+    padding: 5%;
+}
+
+img:hover{
+    background-color: rgb(219, 218, 215);
+    border-radius: 50%;
 }
 
 .quote{
@@ -90,6 +111,7 @@ h1 {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    border-radius: 8px;
 }
 
 .action{
@@ -105,4 +127,5 @@ footer {
     text-align: center;
     background-color: #1f2937;
     color: #e5e7eb;
+    border-radius: 8px;
 }
