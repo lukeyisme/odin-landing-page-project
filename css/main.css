@@ -1,6 +1,7 @@
 header {
+    display: flex;
     background-color: #1f2937;
-    padding: 0 8% 5% 8%;
+    padding: 5% 8% 5% 8%;
     border-radius: 8px;
 }
 
@@ -10,7 +11,12 @@ header {
 }
 
 .header_nav {
+    background-color: #1f2937;
     display: flex;
+    border-radius: 8px;
+    padding: 0.5%;
+    margin-bottom: 1%;
+    position: sticky; top: 0%;              /*sticky allows the header nav to be present when scrolling further down the page*/
 }
 
 .link_container{
@@ -121,6 +127,15 @@ main{
 .product:hover{
     background-color: rgb(219, 218, 215);
     border-radius: 50%;
+}
+
+.product_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0% 5% 0% 5%;
+    font-size: 18px;
+    color: #1f2937;
 }
 
 .quote{
