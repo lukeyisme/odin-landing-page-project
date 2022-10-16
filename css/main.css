@@ -27,6 +27,7 @@ header {
     color: #e5e7eb;
     text-decoration: none;
     margin: 1%;                             /*And set margin on the containers children, this enables space between inline items*/
+    transition: color 0.25s;
 }
 
 .link:hover{
@@ -40,23 +41,27 @@ header {
 }
 
 h1 {
+    display: flex;
     font-size: 48px;
     color: #f9faf8;
 }
 
 .sub_text{
+    display: flex;
     font-size: 18px;
     color: #e5e7eb;
 }
 
 .header_img{
     display: flex;
-    justify-content: center;
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content: end;
     height: auto;
     width: 240px;
     padding: 5%;
     background-color: #f9faf8;
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
 .action_button{
@@ -68,6 +73,7 @@ h1 {
     font-size: 24px;
     width: 15%;
     padding: 1%;
+    transition: 0.25s;
 }
 
 .action_button:hover{
@@ -83,6 +89,7 @@ h1 {
     font-size: 24px;
     width: 15%;
     padding: 1%;
+    transition: 0.25s;
 }
 
 .init_button:hover{
